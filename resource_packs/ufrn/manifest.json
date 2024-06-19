@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Pacote de Recursos Minecraft UFRN",
+    "name": "UFRN RP",
+    "uuid": "7fc9ad76-9bdd-480e-9e4d-b16e95cfe42e",
+    "min_engine_version": [1, 20, 10],
+    "version": [1, 0, 0]
+  },
+  "modules": [
+    {
+      "description": "pack.description.modules",
+      "type": "resources",
+      "uuid": "23665502-3558-425e-90b6-37ed398fadc6",
+      "version": [1, 0, 0]
+    }
+  ]
+}
