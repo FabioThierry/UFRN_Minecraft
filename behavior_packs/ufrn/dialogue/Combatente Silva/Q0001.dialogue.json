@@ -14,7 +14,7 @@
         "text": {
           "rawtext": [
             {
-              "text": "Agora que estamos num canto mais seguro, podemos seguir com seu processo de se juntar à §uResistência§r através de uma missão simples."
+              "text": "Podemos seguir com seu processo de se juntar à §uResistência§r através de uma missão simples."
             }
           ]
         },
@@ -61,7 +61,10 @@
                 }
               ]
             },
-            "commands": ["/tag @initiator add Q0001_01", "/playsound random.toast @initiator ~ ~ ~ 1 0.65"]
+            "commands": [
+              "/tag @initiator add Q0001_01",
+              "/playsound random.toast @initiator ~ ~ ~ 1 0.65"
+            ]
           }
         ]
       },

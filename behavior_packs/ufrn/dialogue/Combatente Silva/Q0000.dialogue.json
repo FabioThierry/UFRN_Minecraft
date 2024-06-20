@@ -1,0 +1,76 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "silva_scene_1_Q0000",
+        "npc_name": {
+          "rawtext": [
+            {
+              "text": "Combatente Silva"
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "text": "Parabéns por ter seguido minhas instruções até aqui. Você está seguro."
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": "Próximo",
+            "commands": ["/dialogue open @s @initiator silva_scene_2"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "silva_scene_2_Q0000",
+        "npc_name": {
+          "rawtext": [
+            {
+              "text": "Combatente Silva"
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "text": "Agora que você escapou da prisão, temos mais desafios pela frente."
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": "Próximo",
+            "commands": ["/dialogue open @s @initiator silva_scene_3"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "silva_scene_3_Q0000",
+        "npc_name": {
+          "rawtext": [
+            {
+              "text": "Combatente Silva"
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "text": "Vamos precisar de toda a sua habilidade para derrotar a IA que controla este lugar."
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": "Próximo",
+            "commands": ["/function Q0000/Q0000_end"]
+          }
+        ]
+      }
+    ]
+  }
+}
