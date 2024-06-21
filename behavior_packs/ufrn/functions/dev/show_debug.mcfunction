@@ -1,0 +1,2 @@
+gamerule sendcommandfeedback true
+scoreboard objectives setdisplay sidebar ufrn

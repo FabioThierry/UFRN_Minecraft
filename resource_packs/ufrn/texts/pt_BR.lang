@@ -2,9 +2,23 @@ pack.description=Pacote de Recursos Minecraft UFRN
 pack.name=UFRN RP
 pack.description.modules=UFRN Pacote de Recursos
 
+# Generic
+ufrn.walkietalkie.chat.name=§5Walkie Talkie
+ufrn.unknown.chat.name=§5§k§oWalkie Talkie
+ufrn.chat.separator=§r §8§l>>§r §7
 
+# Q0000
+### Texts
+ufrn.Q0000.unknown.1=§oEi, acorde! Você está me ouvindo?
+ufrn.Q0000.unknown.2=§oEstou falando daqui de cima, do fosso de ventilação.
+ufrn.Q0000.unknown.3=§oIrei te ajudar a fugir dessa prisão.
+ufrn.Q0000.unknown.4=§oEstou jogando um comunicador pra te ajudar.
+ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §opara que possamos nos comunicar remotamente.
 
-Q0000_01.WT_01=§rRádio Walk Talk:
-Q0000_01.WT_02=Ei,
-Q0000_01.WT_03=você aí! É hora de escapar. Só siga o que eu disser e você vai sair dessa.
-Q0000_01.WT_04=§rÉ hora de escapar. Só siga o que eu disser e você vai sair dessa.
+ufrn.Q0000.walkietalkie.1=§7Agora está me ouvindo pelo Rádio?
+ufrn.Q0000.walkietalkie.2=§7Pronto! Agora eu irei hackear a porta, só um instante...
+ufrn.Q0000.walkietalkie.3=§7Siga as minhas instruções, não quero perder §loutra pessoa§r §7durante a fuga. 
+ufrn.Q0000.walkietalkie.4=§7Fuja em direção ao corredor com detalhes em §2verde§r! 
+### Objectives
+ufrn.objective.Q0000.1=Equipe o §5Rádio Walkie Talkie§r
+ufrn.objective.Q0000.2=Fuja em direção ao corredor
