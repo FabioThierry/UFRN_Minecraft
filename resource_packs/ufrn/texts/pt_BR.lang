@@ -2,18 +2,25 @@ pack.description=Pacote de Recursos Minecraft UFRN
 pack.name=UFRN RP
 pack.description.modules=UFRN Pacote de Recursos
 
-# Generic
+## Generic
+ufrn.resistencia.name=§u§lRESISTÊNCIA §r
+ufrn.luga.name=§4§lLUGA §r
 ufrn.walkietalkie.chat.name=§5Walkie Talkie
 ufrn.unknown.chat.name=§5§k§oUnknown
 ufrn.chat.separator=§r §8§l>>§r §7
 
-# Q0000
+ufrn.npc.btn.next=§t§lPróximo §2§l>>§r
+ufrn.npc.btn.mid=§t§lIr §2§l>>§r
+ufrn.npc.btn.end=§6Finalizar
+ufrn.npc.combatente_silva.name=Combatente Silva
+
+## Q0000
 ### Texts
 ufrn.Q0000.unknown.1=§oEi, acorde! Você está me ouvindo?
 ufrn.Q0000.unknown.2=§oEstou falando daqui de cima, do fosso de ventilação.
 ufrn.Q0000.unknown.3=§oIrei te ajudar a fugir dessa prisão.
 ufrn.Q0000.unknown.4=§oEstou jogando um comunicador pra te ajudar.
-ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §o§7para que possamos nos comunicar remotamente.
+ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §7§opara que possamos nos comunicar remotamente.
 ufrn.Q0000.unknown.6=§o§6SOCORRO!§r Alguém está me ouvindo?.
 
 ufrn.Q0000.walkietalkie.1=Agora está me ouvindo pelo Rádio?
@@ -37,3 +44,22 @@ ufrn.objective.Q0000.10=Por fim vire a §l§6ESQUERDA§r e saia
 ufrn.objective.Q0000.11=§l§6Suba as escadas§r
 ufrn.objective.Q0000.12=§lSaia pela porta!§r
 ufrn.objective.Q0000.13=Converse com o §l§eCombatente Silva!§r
+
+### NPCs
+
+ufrn.npc.Q0000.combatente_silva.1=Parabéns por ter seguido minhas instruções até aqui. Você está seguro.
+ufrn.npc.Q0000.combatente_silva.2=Agora que você escapou da prisão, temos mais desafios pela frente.
+ufrn.npc.Q0000.combatente_silva.3=Vamos precisar de toda a sua habilidade para derrotar a IA que controla este lugar.
+
+## Q0001
+### Texts
+
+### NPCs
+ufrn.npc.Q0001.combatente_silva.1=Podemos seguir com seu processo de se juntar à §u§lRESISTÊNCIA§r através de uma missão simples.
+ufrn.npc.Q0001.combatente_silva.2=Primeiro, precisamos ver se seus conhecimentos não foram totalmente afetados pelo §4§lLUGA§r. 
+ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §mRelógio do Sol§r. %s%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
+ufrn.npc.Q0001.combatente_silva.4=Texto quase final
+ufrn.npc.Q0001.combatente_silva.5=Texto Final 
+
+ufrn.npc.Q0001.combatente_roberto.1=Parabéns! Você conseguiu completar o desafio! Agora sim é possível ver que você está preparado pra fazer parte da §u§lRESISTÊNCIA§r, aqui tão as suas recompensas.
+ufrn.npc.Q0001.combatente_roberto.2=Pra entender como funciona essa bússola é basicamente usar o mesmo conhecimento usado pra cumprir o desafio! /n§6ATENÇÃO§r ele sempre aponta pra direção NORTE!

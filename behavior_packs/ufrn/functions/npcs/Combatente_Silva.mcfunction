@@ -1,1 +1,0 @@
-execute if entity @initiator[tag=Q0000] run dialogue open @e[name=combatente_silva] @initiator silva_scene_1_Q0000

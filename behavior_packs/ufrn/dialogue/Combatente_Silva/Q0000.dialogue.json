@@ -7,21 +7,21 @@
         "npc_name": {
           "rawtext": [
             {
-              "text": "Combatente Silva"
+              "translate": "ufrn.npc.combatente_silva.name"
             }
           ]
         },
         "text": {
           "rawtext": [
             {
-              "text": "Parabéns por ter seguido minhas instruções até aqui. Você está seguro."
+              "translate": "ufrn.npc.Q0000.combatente_silva.1"
             }
           ]
         },
         "buttons": [
           {
-            "name": "Próximo",
-            "commands": ["/dialogue open @s @initiator silva_scene_2"]
+            "name": { "rawtext": [{ "translate": "ufrn.npc.btn.next" }] },
+            "commands": ["/dialogue open @s @initiator silva_scene_2_Q0000"]
           }
         ]
       },
@@ -30,21 +30,22 @@
         "npc_name": {
           "rawtext": [
             {
-              "text": "Combatente Silva"
+              "translate": "ufrn.npc.combatente_silva.name",
+              "with": ["\n"]
             }
           ]
         },
         "text": {
           "rawtext": [
             {
-              "text": "Agora que você escapou da prisão, temos mais desafios pela frente."
+              "translate": "ufrn.npc.Q0000.combatente_silva.2"
             }
           ]
         },
         "buttons": [
           {
-            "name": "Próximo",
-            "commands": ["/dialogue open @s @initiator silva_scene_3"]
+            "name": { "rawtext": [{ "translate": "ufrn.npc.btn.next" }] },
+            "commands": ["/dialogue open @s @initiator silva_scene_3_Q0000"]
           }
         ]
       },
@@ -53,21 +54,22 @@
         "npc_name": {
           "rawtext": [
             {
-              "text": "Combatente Silva"
+              "translate": "ufrn.npc.combatente_silva.name",
+              "with": ["\n"]
             }
           ]
         },
         "text": {
           "rawtext": [
             {
-              "text": "Vamos precisar de toda a sua habilidade para derrotar a IA que controla este lugar."
+              "translate": "ufrn.npc.Q0000.combatente_silva.3"
             }
           ]
         },
         "buttons": [
           {
-            "name": "Próximo",
-            "commands": ["/function Q0000/Q0000_end"]
+            "name": { "rawtext": [{ "translate": "ufrn.npc.btn.end" }] },
+            "commands": ["/function npcs/combatente_silva/Q0000/end"]
           }
         ]
       }
