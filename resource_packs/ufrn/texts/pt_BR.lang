@@ -4,7 +4,7 @@ pack.description.modules=UFRN Pacote de Recursos
 
 # Generic
 ufrn.walkietalkie.chat.name=§5Walkie Talkie
-ufrn.unknown.chat.name=§5§k§oWalkie Talkie
+ufrn.unknown.chat.name=§5§k§oUnknown
 ufrn.chat.separator=§r §8§l>>§r §7
 
 # Q0000
@@ -13,12 +13,27 @@ ufrn.Q0000.unknown.1=§oEi, acorde! Você está me ouvindo?
 ufrn.Q0000.unknown.2=§oEstou falando daqui de cima, do fosso de ventilação.
 ufrn.Q0000.unknown.3=§oIrei te ajudar a fugir dessa prisão.
 ufrn.Q0000.unknown.4=§oEstou jogando um comunicador pra te ajudar.
-ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §opara que possamos nos comunicar remotamente.
+ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §o§7para que possamos nos comunicar remotamente.
+ufrn.Q0000.unknown.6=§o§6SOCORRO!§r Alguém está me ouvindo?.
 
-ufrn.Q0000.walkietalkie.1=§7Agora está me ouvindo pelo Rádio?
-ufrn.Q0000.walkietalkie.2=§7Pronto! Agora eu irei hackear a porta, só um instante...
-ufrn.Q0000.walkietalkie.3=§7Siga as minhas instruções, não quero perder §loutra pessoa§r §7durante a fuga. 
-ufrn.Q0000.walkietalkie.4=§7Fuja em direção ao corredor com detalhes em §2verde§r! 
+ufrn.Q0000.walkietalkie.1=Agora está me ouvindo pelo Rádio?
+ufrn.Q0000.walkietalkie.2=Pronto! Agora eu irei hackear a porta, só um instante...
+ufrn.Q0000.walkietalkie.3=Siga as minhas instruções, não quero perder §loutra pessoa§r durante a fuga. 
+ufrn.Q0000.walkietalkie.4=Fuja em direção ao corredor com detalhes em §2verde§r! 
+ufrn.Q0000.walkietalkie.5=Parabéns!, você conseguiu chegar no fosso do elevador. Agora §lsuba as escadas§r §7para escapar da Prisão!
+ufrn.Q0000.walkietalkie.6=Que bom que você está aqui! Eu que estava falando com você. Sou o Combatente Silva
+
 ### Objectives
 ufrn.objective.Q0000.1=Equipe o §5Rádio Walkie Talkie§r
 ufrn.objective.Q0000.2=Fuja em direção ao corredor
+ufrn.objective.Q0000.3=Siga até o final do corredor e §lESPERE!
+ufrn.objective.Q0000.4=Agora vire para §l§6DIREITA§r e ande 2 blocos para frente e §lESPERE!
+ufrn.objective.Q0000.5=Vire novamente para §l§6DIREITA§r e siga até o final do corredor e §lESPERE!
+ufrn.objective.Q0000.6=Agora vire para §l§6ESQUERDA§r e siga até o final do corredor e §lESPERE!
+ufrn.objective.Q0000.7=Novamente vire para §l§6ESQUERDA§r e siga até o final do corredor e §lESPERE!
+ufrn.objective.Q0000.8=Agora vire para §l§6DIREITA§r e siga até o final do corredor e §lESPERE!
+ufrn.objective.Q0000.9=Novamente vire para §l§6DIREITA§r e siga até o final do corredor e §lESPERE!§r
+ufrn.objective.Q0000.10=Por fim vire a §l§6ESQUERDA§r e saia
+ufrn.objective.Q0000.11=§l§6Suba as escadas§r
+ufrn.objective.Q0000.12=§lSaia pela porta!§r
+ufrn.objective.Q0000.13=Converse com o §l§eCombatente Silva!§r
