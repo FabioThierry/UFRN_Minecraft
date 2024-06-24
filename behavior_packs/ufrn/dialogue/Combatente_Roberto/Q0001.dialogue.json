@@ -3,48 +3,19 @@
   "minecraft:npc_dialogue": {
     "scenes": [
       {
-        "scene_tag": "roberto_scene",
-        "npc_name": "Combatente Roberto",
-        "text": {
+        "scene_tag": "roberto_scene_1_Q0001",
+        "npc_name": {
           "rawtext": [
             {
-              "text": "Pronto, agora que você está aí em cima. Veja que você tem um botão para iniciar o desafio."
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
             }
           ]
         },
-
-        "buttons": [
-          {
-            "name": "Próximo",
-            "commands": ["/dialogue open @s @initiator roberto_scene_2"]
-          }
-        ]
-      },
-      {
-        "scene_tag": "roberto_scene_2",
-        "npc_name": "Combatente Roberto",
         "text": {
           "rawtext": [
             {
-              "text": "Depois vai ter quatro botões ao seu redor, cada um apontando para uma direção diferente, que são §qN§r, §qS§r, §qL§r e §qO§r. \n\nEu vou pedir para que você pressione na ordem correta antes que o tempo acabe."
-            }
-          ]
-        },
-
-        "buttons": [
-          {
-            "name": { "rawtext": [{ "text": "§9Iniciar Missão§r" }] },
-            "commands": ["/tag @initiator add Q0001_08", "/playsound random.toast @initiator ~ ~ ~ 1 0.65"]
-          }
-        ]
-      },
-      {
-        "scene_tag": "roberto_scene_3",
-        "npc_name": "Combatente Roberto",
-        "text": {
-          "rawtext": [
-            {
-              "text": "Parabéns, você conseguiu completar o desafio! \n\nVolte para conversar com o §1Combatente Wilson§r lá ele lhe informará quais os próximos passos!"
+              "translate": "ufrn.npc.Q0001.combatente_roberto.1"
             }
           ]
         },
@@ -54,10 +25,132 @@
             "name": {
               "rawtext": [
                 {
-                  "text": "§1OK"
+                  "translate": "ufrn.npc.btn.next"
                 }
               ]
+            },
+            "commands": ["/dialogue open @s @initiator roberto_scene_2_Q0001"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_2_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
             }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.2"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator roberto_scene_3_Q0001"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_3_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.3"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator roberto_scene_4_Q0001"]
+          }
+        ]
+      },
+
+      {
+        "scene_tag": "roberto_scene_4_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.4"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/function sounds/mid"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_5_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.5"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": []
           }
         ]
       }

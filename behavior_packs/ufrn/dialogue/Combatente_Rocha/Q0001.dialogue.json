@@ -1,0 +1,67 @@
+{
+  "format_version": "1.14.0",
+  "minecraft:npc_dialogue": {
+    "scenes": [
+      {
+        "scene_tag": "rocha_scene_1_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_rocha.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_rocha.1",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            },
+            "commands": ["/function sounds/mid"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "rocha_scene_2_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_rocha.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_rocha.2"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
