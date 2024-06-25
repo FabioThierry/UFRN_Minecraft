@@ -15,7 +15,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0001.combatente_roberto.1"
+              "translate": "ufrn.npc.Q0001.combatente_roberto.1",
+              "with": ["\n"]
             }
           ]
         },
@@ -46,7 +47,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0001.combatente_roberto.2"
+              "translate": "ufrn.npc.Q0001.combatente_roberto.2",
+              "with": ["\n"]
             }
           ]
         },
@@ -93,7 +95,6 @@
           }
         ]
       },
-
       {
         "scene_tag": "roberto_scene_4_Q0001",
         "npc_name": {
@@ -120,7 +121,7 @@
                 }
               ]
             },
-            "commands": ["/function sounds/mid"]
+            "commands": ["/dialogue open @s @initiator roberto_scene_5_Q0001"]
           }
         ]
       },
@@ -150,7 +151,101 @@
                 }
               ]
             },
-            "commands": []
+            "commands": ["/dialogue open @s @initiator roberto_scene_6_Q0001"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_6_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.6",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator roberto_scene_7_Q0001"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_7_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.7"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            },
+            "commands": [
+              "/function npcs/combatente_roberto/Q0001/mid",
+              "/function sounds/mid"
+            ]
+          }
+        ]
+      },
+      {
+        "scene_tag": "roberto_scene_8_Q0001",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_roberto.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0001.combatente_roberto.8"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.end"
+                }
+              ]
+            },
+            "commands": ["/function npcs/combatente_roberto/Q0001/end"]
           }
         ]
       }

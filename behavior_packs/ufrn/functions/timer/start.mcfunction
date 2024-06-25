@@ -1,0 +1,1 @@
+execute if score ufrn:timer ufrn matches 20 run function timer/20

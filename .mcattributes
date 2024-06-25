@@ -1,4 +1,2 @@
 diagnostic.disable.behaviorpack.block.states.missing=true
-diagnostic.disable.=true
-diagnostic.disable.=true
-diagnostic.disable.minecraft.language.comment.invalid=true
+diagnostic.disable.behaviorpack.item.missing=true

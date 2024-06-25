@@ -24,7 +24,7 @@ ufrn.Q0000.unknown.2=§oEstou falando daqui de cima, do fosso de ventilação.
 ufrn.Q0000.unknown.3=§oIrei te ajudar a fugir dessa prisão.
 ufrn.Q0000.unknown.4=§oEstou jogando um comunicador pra te ajudar.
 ufrn.Q0000.unknown.5=§oEquipe o §5Rádio Walkie Talkie§r §7§opara que possamos nos comunicar remotamente.
-ufrn.Q0000.unknown.6=§o§6SOCORRO!§r Alguém está me ouvindo?.
+ufrn.Q0000.unknown.6=§o§6SOCORRO!§r Alguém está me ouvindo?
 
 ufrn.Q0000.walkietalkie.1=Agora está me ouvindo pelo Rádio?
 ufrn.Q0000.walkietalkie.2=Pronto! Agora eu irei hackear a porta, só um instante...
@@ -54,7 +54,13 @@ ufrn.npc.Q0000.combatente_silva.1=Parabéns por ter seguido minhas instruções 
 ufrn.npc.Q0000.combatente_silva.2=Agora que você escapou da prisão, temos mais desafios pela frente.
 ufrn.npc.Q0000.combatente_silva.3=Vamos precisar de toda a sua habilidade para derrotar a IA que controla este lugar.
 
+### Conclusão
+ufrn.Q0000.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
+ufrn.Q0000.conclusion.subtitle=§q§l▶ Fuga ◀
+
 ## Q0001
+### Desafio
+ufrn.Q0001.wrong.direction=§4Direção Errada!
 ### Texts
 ufrn.Q0001.walkietalkie.1=Checando conexão!
 ufrn.Q0001.walkietalkie.2=Aproveite para verificar as instruções nos quadros. Em caso de dúvida, volte e confira novamente.
@@ -62,38 +68,38 @@ ufrn.Q0001.walkietalkie.3=Agora que você está no centro, eu quero que aperte o
 ufrn.Q0001.walkietalkie.4=Agora aperte o §l§6Botão§r que está apontado na direção §qLeste§r
 ufrn.Q0001.walkietalkie.5=Agora aperte o §l§6Botão§r que está apontado na direção §qOeste§r
 ufrn.Q0001.walkietalkie.6=Agora aperte o §l§6Botão§r que está apontado na direção §qSul§r
-ufrn.Q0001.walkietalkie.7=Vamos aumentar um pouco a dificuldade
+ufrn.Q0001.walkietalkie.7=Agora vou randomizar um pouco!
+ufrn.Q0001.walkietalkie.8=Agora realize o desafio antes que o tempo acabe!
+ufrn.Q0001.walkietalkie.9=Muito bem, você conseguiu finalizar %1 direções!
 
 
 ### Objectives
-ufrn.objective.Q0001.1=Siga o caminho das luzes para chegar até o §mRelógio do Sol§r.
-ufrn.objective.Q0001.2=Siga o caminho das luzes para chegar ao topo de prédio.
-ufrn.objective.Q0001.3=Converse com o §l§eCombatente Roberto!§r
-ufrn.objective.Q0001.4=Diriga-se até o centro da rosa dos ventos.
-ufrn.objective.Q0001.5=Equipe a §4Bússola§r em sua mão!
-ufrn.objective.Q0001.6=Aperte §l§6Botão§r na direção §qNorte§r
-ufrn.objective.Q0001.7=Aperte §l§6Botão§r na direção §qLeste§r
-ufrn.objective.Q0001.8=Aperte §l§6Botão§r na direção §qOeste§r
-ufrn.objective.Q0001.9=Aperte §l§6Botão§r na direção §qSul§r
-ufrn.objective.Q0001.10=Aperte §l§6Botão§r na direção §q%1§r
-ufrn.objective.Q0001.11=Aperte §l§6Botão§r na direção §q%1§r
-ufrn.objective.Q0001.12=Aperte §l§6Botão§r na direção §q%1§r
-ufrn.objective.Q0001.13=Aperte §l§6Botão§r na direção §q%1§r
-ufrn.objective.Q0001.14=Aperte §l§6Botão§r na direção §q%1§r
-ufrn.objective.Q0001.15=Aperte §l§6Botão§r na direção §q%1§r
+ufrn.objective.Q0001.1=Siga o caminho das luzes para chegar até o §6Relógio do Sol§r.
+ufrn.objective.Q0001.2=Converse com o §l§eCombatente Roberto!§r
+ufrn.objective.Q0001.3=Diriga-se até o centro da rosa dos ventos.
+ufrn.objective.Q0001.4=Equipe a §4Bússola§r em sua mão!
+ufrn.objective.Q0001.5=Aperte §l§6Botão§r na direção §qNorte§r
+ufrn.objective.Q0001.6=Aperte §l§6Botão§r na direção §qLeste§r
+ufrn.objective.Q0001.7=Aperte §l§6Botão§r na direção §qOeste§r
+ufrn.objective.Q0001.8=Aperte §l§6Botão§r na direção §qSul§r
+
+ufrn.random.objective.Q0001.1=Aperte §l§6Botão§r na direção §q%1§r
 
 ### NPCs
 ufrn.npc.Q0001.combatente_silva.1=Podemos seguir com seu processo de se juntar à §u§lRESISTÊNCIA§r através de uma missão simples.
 ufrn.npc.Q0001.combatente_silva.2=Primeiro, precisamos ver se seus conhecimentos não foram totalmente afetados pelo §4§lLUGA§r. 
-ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §mRelógio do Sol§r. %s%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
+ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §6Relógio do Sol§r. %s%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
 ufrn.npc.Q0001.combatente_silva.4=Parabéns! Você conseguiu completar o desafio! Agora sim é possível ver que você está preparado pra fazer parte da §u§lRESISTÊNCIA§r
 ufrn.npc.Q0001.combatente_silva.5=Aqui tão as suas recompensas... §45 x [§2Esmeraldas§r], 10 x [§4Maçãs§r] e [§aExperiência§r]%sAhh... e pode ficar com a §4Bússola§r ela vai te ajudar você vai precisar dela.
 
-ufrn.npc.Q0001.combatente_rocha.1=Eu estou fazendo a vigilha deste perimetro. %s%sSe está procurando o §mRelógio do Sol§r é este prédio que está ao meu lado. Você vai encontrar o §eCombatente Roberto§r lá em cima!
+ufrn.npc.Q0001.combatente_rocha.1=Eu estou fazendo a vigilha deste perimetro. %s%sSe está procurando o §6Relógio do Sol§r é este prédio que está ao meu lado. Você vai encontrar o §eCombatente Roberto§r lá em cima!
 ufrn.npc.Q0001.combatente_rocha.2=Você conseguiu completar o desafio! %sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!
 
-ufrn.npc.Q0001.combatente_roberto.1=Então você é o novo interessado em entrar na §u§lRESISTÊNCIA§r. %sPrimeiro vamos ter que realizar alguns testes de orientação espacial por meio de um desafio.
-ufrn.npc.Q0001.combatente_roberto.2=O desafio vai acontecer da seguinte forma, você deverá se locomover até o centro de uma representação da rosa dos ventos que está logo aqui acima.%sUma vez ao centro você vai ver 4 Botões ao seu redor, cada um apontando para uma direção diferente dos pontos cardeais, que são §qNorte§r, §qSul§r, §qLeste§r e §qOeste§r. %s%sEu vou pedir para que você pressione na ordem correta.
-ufrn.npc.Q0001.combatente_roberto.3=Aqui está uma §4Bússola§r, ela vai ajudar na sua orientação %sUma §4Bússola§r é um instrumento de navegação que utiliza uma agulha magnetizada para alinhar-se com o campo magnético da Terra. A agulha aponta consistentemente para o norte magnético, permitindo que os usuários determinem as direções dos pontos cardeais. A declinação magnética deve ser considerada para maior precisão na navegação.
-ufrn.npc.Q0001.combatente_roberto.4=Atenção, fique com o seu §5Walkie Talkie§r ligado para receber informações.
-ufrn.npc.Q0001.combatente_roberto.5=Parabéns, você conseguiu completar o desafio! %s%sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!
+ufrn.npc.Q0001.combatente_roberto.1=Então você é o novo interessado em entrar na §u§lRESISTÊNCIA§r.%sPrimeiro vamos ter que realizar alguns testes de orientação espacial por meio de um desafio.
+ufrn.npc.Q0001.combatente_roberto.2=Você deverá se locomover até o centro de uma representação da rosa dos ventos que está logo aqui acima.
+ufrn.npc.Q0001.combatente_roberto.3=Uma vez ao centro você vai ver 4 Botões ao seu redor, cada um apontando para uma direção diferente dos pontos cardeais, que são §qNorte§r, §qSul§r, §qLeste§r e §qOeste§r.
+ufrn.npc.Q0001.combatente_roberto.4=Eu vou pedir para que você pressione na ordem correta.
+ufrn.npc.Q0001.combatente_roberto.5=Aqui está uma §4Bússola§r, ela vai ajudar na sua orientação 
+ufrn.npc.Q0001.combatente_roberto.6=Uma §4Bússola§r é um instrumento de navegação que utiliza uma agulha para alinhar-se com o campo magnético da Terra.%sA agulha aponta consistentemente para o norte magnético, permitindo que os usuários determinem as direções dos pontos cardeais.
+ufrn.npc.Q0001.combatente_roberto.7=Atenção, fique com o seu §5Walkie Talkie§r ligado para receber informações.
+ufrn.npc.Q0001.combatente_roberto.8=Parabéns, você conseguiu completar o desafio! %s%sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!

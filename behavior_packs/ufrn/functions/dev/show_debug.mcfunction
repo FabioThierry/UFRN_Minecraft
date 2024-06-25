@@ -1,2 +1,3 @@
 gamerule sendcommandfeedback true
+gamerule commandblockoutput true
 scoreboard objectives setdisplay sidebar ufrn
