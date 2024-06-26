@@ -246,6 +246,16 @@
               ]
             },
             "commands": ["/function npcs/combatente_roberto/Q0001/end"]
+          },
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.reset"
+                }
+              ]
+            },
+            "commands": ["/function npcs/combatente_roberto/Q0001/reset"]
           }
         ]
       }

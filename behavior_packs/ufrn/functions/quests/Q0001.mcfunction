@@ -26,4 +26,9 @@ execute if score ufrn:subphase ufrn matches 24 run function quests/Q0001/Q0001_2
 execute if score ufrn:subphase ufrn matches 25 run function quests/Q0001/Q0001_25
 execute if score ufrn:subphase ufrn matches 26 run function quests/Q0001/Q0001_26_loop_init
 execute if score ufrn:subphase ufrn matches 27 run function quests/Q0001/Q0001_27_loop_end
+execute if score ufrn:subphase ufrn matches 28 run function quests/Q0001/Q0001_28
+execute if score ufrn:subphase ufrn matches 29 run function quests/Q0001/Q0001_29
+execute if score ufrn:subphase ufrn matches 30 run function quests/Q0001/Q0001_30
+execute if score ufrn:subphase ufrn matches 31 run function quests/Q0001/Q0001_31
 execute if score ufrn:subphase ufrn matches 99 run function quests/Q0001/Q0001_99_loop
+

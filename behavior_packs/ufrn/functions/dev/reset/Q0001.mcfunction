@@ -1,5 +1,6 @@
 function setup/world
 function setup/Q0001/setup
+function dev/hide_debug
 tag @s remove Q0001
 tag @s remove Q0001_01
 tag @s remove Q0001_02

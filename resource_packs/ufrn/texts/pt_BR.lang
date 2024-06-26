@@ -11,6 +11,7 @@ ufrn.chat.separator=§r §8§l>>§r §7
 
 ufrn.npc.btn.next=§t§lPróximo §2§l>>§r
 ufrn.npc.btn.mid=§t§lIr §2§l>>§r
+ufrn.npc.btn.reset=§t§lReiniciar
 ufrn.npc.btn.end=§6Finalizar
 ### Npcs names
 ufrn.npc.combatente_silva.name=Combatente Silva
@@ -64,13 +65,13 @@ ufrn.Q0001.wrong.direction=§4Direção Errada!
 ### Texts
 ufrn.Q0001.walkietalkie.1=Checando conexão!
 ufrn.Q0001.walkietalkie.2=Aproveite para verificar as instruções nos quadros. Em caso de dúvida, volte e confira novamente.
-ufrn.Q0001.walkietalkie.3=Agora que você está no centro, eu quero que aperte o §l§6Botão§r que está apontado na direção §qNorte§r
-ufrn.Q0001.walkietalkie.4=Agora aperte o §l§6Botão§r que está apontado na direção §qLeste§r
-ufrn.Q0001.walkietalkie.5=Agora aperte o §l§6Botão§r que está apontado na direção §qOeste§r
-ufrn.Q0001.walkietalkie.6=Agora aperte o §l§6Botão§r que está apontado na direção §qSul§r
-ufrn.Q0001.walkietalkie.7=Agora vou randomizar um pouco!
-ufrn.Q0001.walkietalkie.8=Agora realize o desafio antes que o tempo acabe!
-ufrn.Q0001.walkietalkie.9=Muito bem, você conseguiu finalizar %1 direções!
+ufrn.Q0001.walkietalkie.3=Agora que você está no centro, eu quero que aperte a sequência de botões...
+ufrn.Q0001.walkietalkie.4=Agora vou randomizar um pouco!
+ufrn.Q0001.walkietalkie.5=Agora realize o desafio antes que o tempo acabe!
+ufrn.Q0001.walkietalkie.6=Muito bem, você conseguiu finalizar %1 direções!
+ufrn.Q0001.walkietalkie.7=Volte e para falar comigo o §l§eCombatente Roberto!§r
+ufrn.Q0001.walkietalkie.8=
+ufrn.Q0001.walkietalkie.9=
 
 
 ### Objectives
@@ -82,7 +83,7 @@ ufrn.objective.Q0001.5=Aperte §l§6Botão§r na direção §qNorte§r
 ufrn.objective.Q0001.6=Aperte §l§6Botão§r na direção §qLeste§r
 ufrn.objective.Q0001.7=Aperte §l§6Botão§r na direção §qOeste§r
 ufrn.objective.Q0001.8=Aperte §l§6Botão§r na direção §qSul§r
-
+ufrn.objective.Q0001.9=Volte e converse com o §l§eCombatente Silva!§r
 ufrn.random.objective.Q0001.1=Aperte §l§6Botão§r na direção §q%1§r
 
 ### NPCs
@@ -90,7 +91,7 @@ ufrn.npc.Q0001.combatente_silva.1=Podemos seguir com seu processo de se juntar �
 ufrn.npc.Q0001.combatente_silva.2=Primeiro, precisamos ver se seus conhecimentos não foram totalmente afetados pelo §4§lLUGA§r. 
 ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §6Relógio do Sol§r. %s%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
 ufrn.npc.Q0001.combatente_silva.4=Parabéns! Você conseguiu completar o desafio! Agora sim é possível ver que você está preparado pra fazer parte da §u§lRESISTÊNCIA§r
-ufrn.npc.Q0001.combatente_silva.5=Aqui tão as suas recompensas... §45 x [§2Esmeraldas§r], 10 x [§4Maçãs§r] e [§aExperiência§r]%sAhh... e pode ficar com a §4Bússola§r ela vai te ajudar você vai precisar dela.
+ufrn.npc.Q0001.combatente_silva.5=Aqui tão as suas recompensas... 5 x [§2Esmeraldas§r], 10 x [§4Maçãs§r] e [§aExperiência§r]%sAhh... e pode ficar com a §4Bússola§r você vai precisar dela.
 
 ufrn.npc.Q0001.combatente_rocha.1=Eu estou fazendo a vigilha deste perimetro. %s%sSe está procurando o §6Relógio do Sol§r é este prédio que está ao meu lado. Você vai encontrar o §eCombatente Roberto§r lá em cima!
 ufrn.npc.Q0001.combatente_rocha.2=Você conseguiu completar o desafio! %sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!
@@ -102,4 +103,8 @@ ufrn.npc.Q0001.combatente_roberto.4=Eu vou pedir para que você pressione na ord
 ufrn.npc.Q0001.combatente_roberto.5=Aqui está uma §4Bússola§r, ela vai ajudar na sua orientação 
 ufrn.npc.Q0001.combatente_roberto.6=Uma §4Bússola§r é um instrumento de navegação que utiliza uma agulha para alinhar-se com o campo magnético da Terra.%sA agulha aponta consistentemente para o norte magnético, permitindo que os usuários determinem as direções dos pontos cardeais.
 ufrn.npc.Q0001.combatente_roberto.7=Atenção, fique com o seu §5Walkie Talkie§r ligado para receber informações.
-ufrn.npc.Q0001.combatente_roberto.8=Parabéns, você conseguiu completar o desafio! %s%sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!
+ufrn.npc.Q0001.combatente_roberto.8=Parabéns, você conseguiu completar o desafio!%sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!%sOu então pode refazer o desafio.
+
+### Conclusão
+ufrn.Q0001.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
+ufrn.Q0001.conclusion.subtitle=§q§l▶ Direções ◀
