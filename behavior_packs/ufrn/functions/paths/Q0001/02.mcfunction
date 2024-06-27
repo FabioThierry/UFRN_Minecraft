@@ -1,1 +1,0 @@
-execute at @a as @s run particle minecraft:endrod 317.5 -12 286.5

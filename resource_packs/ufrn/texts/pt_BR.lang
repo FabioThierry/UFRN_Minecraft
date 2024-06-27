@@ -18,7 +18,7 @@ ufrn.npc.combatente_silva.name=Combatente Silva
 ufrn.npc.combatente_rocha.name=Combatente Rocha
 ufrn.npc.combatente_roberto.name=Combatente Roberto
 
-## Q0000
+##! Q0000
 ### Texts
 ufrn.Q0000.unknown.1=§oEi, acorde! Você está me ouvindo?
 ufrn.Q0000.unknown.2=§oEstou falando daqui de cima, do fosso de ventilação.
@@ -59,14 +59,14 @@ ufrn.npc.Q0000.combatente_silva.3=Vamos precisar de toda a sua habilidade para d
 ufrn.Q0000.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
 ufrn.Q0000.conclusion.subtitle=§q§l▶ Fuga ◀
 
-## Q0001
+##! Q0001
 ### Desafio
 ufrn.Q0001.wrong.direction=§4Direção Errada!
 ### Texts
 ufrn.Q0001.walkietalkie.1=Checando conexão!
 ufrn.Q0001.walkietalkie.2=Aproveite para verificar as instruções nos quadros. Em caso de dúvida, volte e confira novamente.
 ufrn.Q0001.walkietalkie.3=Agora que você está no centro, eu quero que aperte a sequência de botões...
-ufrn.Q0001.walkietalkie.4=Agora vou randomizar um pouco!
+ufrn.Q0001.walkietalkie.4=Agora vou pedir de forma aleatória um pouco!
 ufrn.Q0001.walkietalkie.5=Agora realize o desafio antes que o tempo acabe!
 ufrn.Q0001.walkietalkie.6=Muito bem, você conseguiu finalizar %1 direções!
 ufrn.Q0001.walkietalkie.7=Volte e para falar comigo o §l§eCombatente Roberto!§r
@@ -108,3 +108,15 @@ ufrn.npc.Q0001.combatente_roberto.8=Parabéns, você conseguiu completar o desaf
 ### Conclusão
 ufrn.Q0001.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
 ufrn.Q0001.conclusion.subtitle=§q§l▶ Direções ◀
+
+
+##! Q0002
+
+### NPCs
+ufrn.npc.Q0002.combatente_silva.1=Pronto, agora que você possui esses itens em mãos, deverá se direcionar até a nossa base que se encontra no §t§lInstituto Metrópole Digital - IMD§r.
+ufrn.npc.Q0002.combatente_silva.2=Para conseguir chegar lá, você deverá seguir alguns procedimentos básicos de segurança para evitar que seja capturado novamente pelo §4§lLUGA§r e seus §4§lLUGABOTS§r.
+ufrn.npc.Q0002.combatente_silva.3=Preste bastante atenção nas seguintes instruções.%sVocê deverá andar até a parada de ônibus e, depois, pegar o §l§6Ônibus§r. Ele irá te deixar em um local próximo ao §t§lIMD§r. %sE, a partir deste ponto, você estará em uma área segura.
+ufrn.npc.Q0002.combatente_silva.4=Entretanto, no caminho existem vários §4§lLUGABOTS§r - siga com cautela!%s%sSe por acaso estiver perto de um, mova-se lentamente e se abaixe para que eles não percebam sua presença.
+ufrn.npc.Q0002.combatente_silva.5=Se você for avistado, eu sugiro que §l§6CORRA§r o mais rápido que puder para o ponto de ônibus antes que o §4§lLUGABOT§r possa lhe alcançar.
+ufrn.npc.Q0002.combatente_silva.6=Por fim, antes de subir no §l§6Ônibus§r, cheque se a rota daquele ônibus é a que você pretende seguir para o local do seu destino.%sE depois siga até o §t§lIMD§r.
+ufrn.npc.Q0002.combatente_silva.7=Ao chegar no Instituto, fale com o §q§lProfessor Ferreira§r. Ele estará lhe esperando na entrada. 

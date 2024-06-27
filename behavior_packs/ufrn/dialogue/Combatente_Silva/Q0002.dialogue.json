@@ -46,7 +46,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0002.combatente_silva.2"
+              "translate": "ufrn.npc.Q0002.combatente_silva.2",
+              "with": ["\n"]
             }
           ]
         },
@@ -86,14 +87,11 @@
             "name": {
               "rawtext": [
                 {
-                  "translate": "ufrn.npc.btn.mid"
+                  "translate": "ufrn.npc.btn.next"
                 }
               ]
             },
-            "commands": [
-              "/function npcs/combatente_silva/Q0002/mid",
-              "/function sounds/mid"
-            ]
+            "commands": ["/dialogue open @s @initiator silva_scene_4_Q0002"]
           }
         ]
       },
@@ -110,7 +108,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0002.combatente_silva.4"
+              "translate": "ufrn.npc.Q0002.combatente_silva.4",
+              "with": ["\n"]
             }
           ]
         },
@@ -140,7 +139,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0002.combatente_silva.5"
+              "translate": "ufrn.npc.Q0002.combatente_silva.5",
+              "with": ["\n"]
             }
           ]
         },
@@ -149,11 +149,73 @@
             "name": {
               "rawtext": [
                 {
-                  "translate": "ufrn.npc.btn.end"
+                  "translate": "ufrn.npc.btn.next"
                 }
               ]
             },
-            "commands": ["/function npcs/combatente_silva/Q0002/end"]
+            "commands": ["/dialogue open @s @initiator silva_scene_6_Q0002"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "silva_scene_6_Q0002",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_silva.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0002.combatente_silva.6",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator silva_scene_7_Q0002"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "silva_scene_7_Q0002",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_silva.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0002.combatente_silva.7",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            },
+            "commands": ["/function npcs/combatente_silva/Q0002/mid"]
           }
         ]
       }
