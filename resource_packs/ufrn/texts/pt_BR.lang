@@ -17,6 +17,7 @@ ufrn.npc.btn.end=§6Finalizar
 ufrn.npc.combatente_silva.name=Combatente Silva
 ufrn.npc.combatente_rocha.name=Combatente Rocha
 ufrn.npc.combatente_roberto.name=Combatente Roberto
+ufrn.npc.professor_ferreira.name=Professor Ferreira
 
 ## Ônibus
 ufrn.bus.route.title=§t§l▶Ônibus - UFRN§r
@@ -93,9 +94,9 @@ ufrn.random.objective.Q0001.1=Aperte §l§6Botão§r na direção §q%1§r
 ### NPCs
 ufrn.npc.Q0001.combatente_silva.1=Podemos seguir com seu processo de se juntar à §u§lRESISTÊNCIA§r através de uma missão simples.
 ufrn.npc.Q0001.combatente_silva.2=Primeiro, precisamos ver se seus conhecimentos não foram totalmente afetados pelo §4§lLUGA§r. 
-ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §6Relógio do Sol§r. %s%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
+ufrn.npc.Q0001.combatente_silva.3=Você precisa ir pras bandas do §6Relógio do Sol§r.%sLá a gente pode fazer umas verificações sobre a sua orientação espacial, que vai ser necessária pra chegar na nossa base principal.
 ufrn.npc.Q0001.combatente_silva.4=Parabéns! Você conseguiu completar o desafio! Agora sim é possível ver que você está preparado pra fazer parte da §u§lRESISTÊNCIA§r
-ufrn.npc.Q0001.combatente_silva.5=Aqui tão as suas recompensas... 5 x [§2Esmeraldas§r], 10 x [§4Maçãs§r] e [§aExperiência§r]%sAhh... e pode ficar com a §4Bússola§r você vai precisar dela.
+ufrn.npc.Q0001.combatente_silva.5=Aqui tão as suas recompensas... 5 x §2Esmeraldas§r, 10 x §4Maçãs§r e §aExperiência§r%sAhh... e pode ficar com a §4Bússola§r você vai precisar dela.
 
 ### NPCs
 ufrn.npc.Q0001.combatente_roberto.1=Então você é o novo interessado em entrar na §u§lRESISTÊNCIA§r.%sPrimeiro vamos ter que realizar alguns testes de orientação espacial por meio de um desafio.
