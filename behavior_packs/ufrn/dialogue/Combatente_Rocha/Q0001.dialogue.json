@@ -3,7 +3,7 @@
   "minecraft:npc_dialogue": {
     "scenes": [
       {
-        "scene_tag": "rocha_scene_1_Q0001",
+        "scene_tag": "rocha_scene_1_Q0002",
         "npc_name": {
           "rawtext": [
             {
@@ -15,7 +15,7 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0001.combatente_rocha.1",
+              "translate": "ufrn.npc.Q0002.combatente_rocha.1",
               "with": ["\n"]
             }
           ]
@@ -29,12 +29,12 @@
                 }
               ]
             },
-            "commands": ["/function sounds/mid"]
+            "commands": ["/dialogue open @s @initiator rocha_scene_2_Q0002"]
           }
         ]
       },
       {
-        "scene_tag": "rocha_scene_2_Q0001",
+        "scene_tag": "rocha_scene_2_Q0002",
         "npc_name": {
           "rawtext": [
             {
@@ -46,7 +46,7 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0001.combatente_rocha.2"
+              "translate": "ufrn.npc.Q0002.combatente_rocha.2"
             }
           ]
         },
@@ -58,7 +58,68 @@
                   "translate": "ufrn.npc.btn.mid"
                 }
               ]
+            },
+            "commands": ["/dialogue open @s @initiator rocha_scene_3_Q0002"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "rocha_scene_3_Q0002",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_rocha.name",
+              "with": ["\n"]
             }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0002.combatente_rocha.3"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator rocha_scene_4_Q0002"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "rocha_scene_4_Q0002",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.combatente_rocha.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0002.combatente_rocha.4"
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            },
+            "commands": ["/function npcs/combatente_rocha/Q0002/mid"]
           }
         ]
       }
