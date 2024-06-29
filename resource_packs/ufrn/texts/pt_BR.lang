@@ -116,8 +116,8 @@ ufrn.Q0001.conclusion.subtitle=§q§l▶ Direções ◀
 ##! Q0002
 
 ### Texts
-ufrn.Q0002.walkietalkie.1=Abra o §2§lMAPA§r para verificar o caminho indicado pelo tracejado.
-ufrn.Q0002.walkietalkie.2=A parada está indicada com o ponto §gLaranja§r no §2§lMAPA§r.
+ufrn.Q0002.walkietalkie.1=Abra o §2§lMAPA§r para verificar o caminho indicado.
+ufrn.Q0002.walkietalkie.2=A parada está circulado em §gLaranja§r no §2§lMAPA§r.
 ufrn.Q0002.walkietalkie.3=Ei, abra o mapa e verifique o caminho necessário para chegar até a parada.
 ufrn.Q0002.walkietalkie.4=Você pode estar tendo dificuldade em encontrar a parada. Irei habilitar o caminho de luzes para chegar até a parada.
 ufrn.Q0002.walkietalkie.5=Você parece estar com muita dificulade em encontrar a parada. Volte do início para recomeçar.
@@ -125,12 +125,17 @@ ufrn.Q0002.walkietalkie.6=Que bom! Finalmente você chegou até a parada de ôni
 ufrn.Q0002.walkietalkie.7=Agora escolha a melhor rota para chegar até o §t§lIMD§r.
 ufrn.Q0002.walkietalkie.8=Muito bem, você chegou na zona de proteção da §u§lRESISTÊNCIA§r.
 ufrn.Q0002.walkietalkie.9=Converse com o §l§eCombatente Rocha!§r que está recepcionando os novos integrantes da §u§lRESISTÊNCIA§r.
+ufrn.Q0002.walkietalkie.10=Abra o §2§lMAPA 1§r para verificar o caminho indicado pelo tracejado.
+ufrn.Q0002.walkietalkie.11=Para chegar no §t§lIMD§r siga pela indicação da §6Seta Laranja§r no §2§lMAPA 1§r.
+ufrn.Q0002.walkietalkie.12=Logo depois, vá até a indicação do §t§lIMD§r circulado em §gLaranja§r.
+ufrn.Q0002.walkietalkie.13=Ande até a indicação do §t§lIMD§r circulado em §gLaranja§r.
 
 ### Objetivos
 ufrn.objective.Q0002.1=Dirija-se até a parada e pegue o §l§6Ônibus§r para o §t§lIMD§r.
 ufrn.objective.Q0002.2=Aperte o §l§6Botão§r na lateral do §l§6Ônibus§r para entrar.
 ufrn.objective.Q0002.3=Converse com o §l§eCombatente Rocha!§r
 ufrn.objective.Q0002.4=Dirija-se até o §t§lIMD§r.
+ufrn.objective.Q0002.5=Converse com o §l§qProfessor Ferreira§r
 
 ### NPCs
 ufrn.npc.Q0002.combatente_silva.1=Pronto, agora que você possui esses itens em mãos, deverá se direcionar até a nossa base que se encontra no §t§lInstituto Metrópole Digital - IMD§r.
@@ -147,9 +152,24 @@ ufrn.npc.Q0002.combatente_rocha.3=Outra coisa, deixa eu só ver se seu localizad
 ufrn.npc.Q0002.combatente_rocha.4=Bom. Siga esse caminho para chegar no até o §t§lIMD§r, estão te esperando por lá, utilize esse novo §2§lMAPA§r para se localizar.
 
 ufrn.npc.Q0002.professor_ferreira.1=Olá, eu estava aguardando a sua chegada. Recebi informações do §q§lCombatente Silva§r, um mais cedo de que um novo recruta chegaria nesta base logo hoje.
-ufrn.npc.Q0002.professor_ferreira.2=Não sei se você já ouviu falar de mim, mas sou o Professor Ferreira - Líder da Resistência contra a inteligência artificial §4§lLUGA§r. Porém, pode me chamar apenas de “Professor”.
+ufrn.npc.Q0002.professor_ferreira.2=Não sei se você já ouviu falar de mim, mas sou o Professor Ferreira - Líder da Resistência contra a inteligência artificial §4§lLUGA§r. Porém, pode me chamar apenas de Professor.
 ufrn.npc.Q0002.professor_ferreira.3=Sinta-se bem-vindo.
 
 ### Conclusão
 ufrn.Q0002.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
 ufrn.Q0002.conclusion.subtitle=§q§l▶ Jornada até o IMD ◀
+
+##! Q0006
+
+### Texts
+ufrn.Q0006.walkietalkie.1=Oi, aqui é o §l§qProfessor Ferreira§r de novo! Enquanto você tá aí arrumando as câmeras, dá uma olhada nos números de série delas, tá? Anota direitinho, porque isso vai ser importante mais tarde. 
+ufrn.Q0006.walkietalkie.2=Fica ligado nos dois últimos dígitos da câmera que tá mais pro leste. Pode parecer bobagem agora, mas confia em mim, você vai precisar dessa informação depois!
+ufrn.Q0006.walkietalkie.3=
+
+ufrn.objective.Q0006.1=Converse com o §l§qProfessor Ferreira§r.
+ufrn.objective.Q0006.2=Beleza, agora que você terminou as câmeras, preciso que você vá até a torre de principal. Sabe aquela com uma maquina no topo? Preciso que você suba lá e aperte o botão. Isso é crucial pra gente finalizar essa missão. Então vai lá, sobe rapidinho e aperta o botão. E valeu pela ajuda, tá indo muito bem!
+
+
+
+
+ufrn.npc.Q0006.professor_ferreira.1=E aí, tudo certo? Preciso da sua ajuda para consertar umas câmeras de segurança que estão pifadas.%sTemos um tempo limitado pra isso, então fica de olho no cronômetro e manda ver nos reparos, beleza? Qualquer dúvida, é só vir falar comigo!
