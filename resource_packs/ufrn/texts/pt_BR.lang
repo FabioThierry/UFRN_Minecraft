@@ -162,17 +162,30 @@ ufrn.Q0002.conclusion.subtitle=§q§l▶ Jornada até o IMD ◀
 ##! Q0006
 
 ### Texts
-ufrn.Q0006.walkietalkie.1=Oi, aqui é o §l§qProfessor Ferreira§r de novo! Enquanto você tá aí arrumando os §5Robôs Sentinelas§r, dá uma olhada nos números dos códigos de ativação, tá? Anota direitinho, porque isso vai ser importante mais tarde. 
-ufrn.Q0006.walkietalkie.2=Fica ligado nos códigos do §5Robô Sentinela§r que tá mais pro §l§2Norte§r e pro §l§2Leste§r. Pode parecer bobagem agora, mas confia em mim, você vai precisar dessa informação depois!
-ufrn.Q0006.walkietalkie.3=Não esqueça de prestar atenção ao códigos.
-ufrn.Q0006.walkietalkie.4=Valeu pela ajuda, tá indo muito bem ainda faltam algumas torres pra subir!
-ufrn.Q0006.walkietalkie.5=Essa é a torre de principal de ligação. Para configurala voce precisa dos códigos de ativação das torres mais ao §l§2Norte§r e mais ao §l§2Leste§r.
-ufrn.Q0006.walkietalkie.7=Beleza, agora que você terminou as câmeras, preciso que você vá até a torre de principal. Sabe aquela com uma maquina no topo? Preciso que você suba lá e aperte o botão. Isso é crucial pra gente finalizar essa missão. Então vai lá, sobe rapidinho e aperta o botão. E valeu pela ajuda, tá indo muito bem!
+ufrn.Q0006.walkietalkie.1=Oi, aqui é o §l§qProfessor Ferreira§r de novo! Olhe as luzes na recepção. Ao final todas devem estar ativadas.
+ufrn.Q0006.walkietalkie.2=Observe o §2§lMAPA§r, eu marquei quais torres você deve subir, pra não peder tempo. 
+ufrn.Q0006.walkietalkie.3=Enquanto você tá aí arrumando os §5Robôs Sentinelas§r, dá uma olhada nos números dos códigos de ativação, tá? Anota direitinho, porque isso vai ser importante mais tarde. 
+ufrn.Q0006.walkietalkie.4=Fica ligado nos códigos do §5Robô Sentinela§r que tá mais pro §l§2Norte§r e pro §l§2Leste§r. Pode parecer bobagem agora, mas confia em mim, você vai precisar dessa informação depois!
+ufrn.Q0006.walkietalkie.5=Não esqueça de prestar atenção ao códigos.
+ufrn.Q0006.walkietalkie.6=Valeu pela ajuda, tá indo muito bem ainda faltam algumas torres pra subir!
+ufrn.Q0006.walkietalkie.7=Essa é a torre de principal de ligação. Para configurala voce precisa dos códigos de ativação das torres mais ao §l§2Norte§r e mais ao §l§2Leste§r.
+ufrn.Q0006.walkietalkie.8=Beleza, agora que você terminou as câmeras, preciso que você vá até a torre de principal. Sabe aquela com uma maquina no topo? Preciso que você suba lá e aperte o botão. Isso é crucial pra gente finalizar essa missão. Então vai lá, sobe rapidinho e aperta o botão. E valeu pela ajuda, tá indo muito bem!
+ufrn.Q0006.walkietalkie.9=Você encontrou uma torre que precisa subir.
+ufrn.Q0006.walkietalkie.10=Acione a §5Alavanca§r para acessar o §5Robô Sentinela§r e informe o código que está por perto.
+ufrn.Q0006.walkietalkie.11=Muito bem torre ativada, não se esqueça de ativar a §5Alavanca§r depois de inserir o código.
+
 
 ufrn.objective.Q0006.1=Converse com o §l§qProfessor Ferreira§r.
-ufrn.objective.Q0006.2=
+ufrn.objective.Q0006.2=Conserte os §5Robôs Sentinelas§r nas torres marcadas no §2§lMAPA§r.
+ufrn.objective.Q0006.3=Converse com o §l§qProfessor Ferreira§r.
 
 ufrn.npc.Q0006.professor_ferreira.1=E aí, tudo certo? Preciso da sua ajuda para consertar alguns §5Robôs Sentinelas§r que estão pifados e devem ser configurados manualmente.
-ufrn.npc.Q0006.professor_ferreira.2=
-ufrn.npc.Q0006.professor_ferreira.3=Para isso, suba nas torres ative a §5Alavanca§r para acessar e interagir com robô e inserir o código correto que deixamos logo ao lado.%sTemos um tempo limitado pra isso, então fica de olho no cronômetro e manda ver nos reparos, beleza? Qualquer dúvida, é só vir falar comigo!
-ufrn.npc.Q0006.professor_ferreira.4=Você precisa configurar os §5Robôs Sentinelas§r nas torres que estão marcadas no §2Sentinelas -> IMD§r.%sPara isso, suba nas torres ative a §5Alavanca§r para acessar e interagir com robô e inserir o código correto que deixamos logo ao lado.
+ufrn.npc.Q0006.professor_ferreira.2=Veja nesse novo §2§lMAPA§r quais torres devem ser configuradas.
+ufrn.npc.Q0006.professor_ferreira.3=Para isso, suba nas torres ative a §5Alavanca§r para acessar e interagir com robô e inserir o código correto que deixamos logo ao lado.%sE não se esqueça de ativar novamente a §5Alavanca§r depois de inserir o código.
+ufrn.npc.Q0006.professor_ferreira.4=A cada nova ligação, uma luz que representa uma sentinela vai ligar logo aqui ao lado na reccepção.
+ufrn.npc.Q0006.professor_ferreira.5=Temos um tempo limitado pra isso, então fica de olho no cronômetro e manda ver nos reparos, beleza? Qualquer dúvida, é só vir falar comigo!
+ufrn.npc.Q0006.professor_ferreira.6=Você precisa configurar os §5Robôs Sentinelas§r nas torres que estão marcadas no §2Sentinelas -> IMD§r.%sPara isso, suba nas torres ative a §5Alavanca§r para acessar e interagir com robô e inserir o código correto que deixamos logo ao lado.
+
+ufrn.npc.Q0006.professor_ferreira.7=Texto Final da Quest
+
+ufrn.sentinela.Q0006=§l§5Robô Sentinela§r%s§2Ativado

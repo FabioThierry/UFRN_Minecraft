@@ -1,4 +1,4 @@
-
+function event/on_tickable_subphase
 execute if score ufrn:subphase_tick ufrn matches 5 run function ui/clear_objective
 title @a times 10 50 10
 execute if score ufrn:subphase_tick ufrn matches 6 run titleraw @a title { "rawtext": [ { "translate": "ufrn.Q0002.conclusion.title", "with": ["\n"] }]} 

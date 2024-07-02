@@ -86,12 +86,105 @@
             "name": {
               "rawtext": [
                 {
-                  "translate": "ufrn.npc.btn.end"
+                  "translate": "ufrn.npc.btn.next"
                 }
               ]
             },
 
-            "commands": ["/function npcs/professor_ferreira/Q0006/end"]
+            "commands": ["/dialogue open @s @initiator ferreira_scene_4_Q0006"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_4_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.4",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator ferreira_scene_5_Q0006"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_5_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.5",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid"
+                }
+              ]
+            },
+            "commands": ["/function npcs/professor_ferreira/Q0006/mid"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_6_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.6",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.mid_2"
+                }
+              ]
+            },
+            "commands": ["/function npcs/professor_ferreira/Q0006/mid_2"]
           }
         ]
       }
