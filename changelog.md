@@ -9,3 +9,13 @@
 - [ ] Criar Quest com os pontos ao redor do IMD
 - [ ] Criar Quest na super-intendência
 - [ ] Adicionar som de pessoa falando de longe
+
+# Q0006
+
+- [ ] Resetar as alavancas
+- [ ] Texto terminado
+- [ ] texto nao terminado
+- [ ] resetar quests
+- [ ] texto missao concluida
+- [ ] criar mapa
+- [ ] adicionar mapa
