@@ -186,6 +186,14 @@ ufrn.npc.Q0006.professor_ferreira.4=A cada nova ligação, uma luz que represent
 ufrn.npc.Q0006.professor_ferreira.5=Temos um tempo limitado pra isso, então fica de olho no cronômetro e manda ver nos reparos, beleza? Qualquer dúvida, é só vir falar comigo!
 ufrn.npc.Q0006.professor_ferreira.6=Você precisa configurar os §5Robôs Sentinelas§r nas torres que estão marcadas no §2Sentinelas -> IMD§r.%sPara isso, suba nas torres ative a §5Alavanca§r para acessar e interagir com robô e inserir o código correto que deixamos logo ao lado.
 
-ufrn.npc.Q0006.professor_ferreira.7=Texto Final da Quest
+## Terminado Dentro do Tempo
+ufrn.npc.Q0006.professor_ferreira.7=Parabéns, você conseguiu consertar todos os §5Robôs Sentinelas§r a tempo! Seu desempenho foi incrível, e graças a você, nossas torres estão operacionais novamente.
+ufrn.npc.Q0006.professor_ferreira.8=Aqui está sua recompensa pelo excelente trabalho: 5 x §2Esmeraldas§r, 10 x §4Maçãs§r e §aExperiência§r para te ajudar nas próximas missões. Continue assim e teremos grandes conquistas pela frente!
+ufrn.npc.Q0006.professor_ferreira.9=Muito obrigado pela sua ajuda! Se precisar de mais alguma coisa, você sabe onde me encontrar. Até a próxima missão!
+
+## Terminado Fora do Tempo
+ufrn.npc.Q0006.professor_ferreira.10=Poxa, infelizmente o tempo acabou e não conseguimos consertar todos os §5Robôs Sentinelas§r. Mas não desanime!
+ufrn.npc.Q0006.professor_ferreira.11=Você fez um bom esforço e isso já é muito importante. Vamos analisar o que deu errado e tentar novamente.
+ufrn.npc.Q0006.professor_ferreira.12=Se precisar de alguma dica ou ajuda, estou aqui para te apoiar. Na próxima, tenho certeza de que conseguiremos! Boa sorte e não desista!
 
 ufrn.sentinela.Q0006=§l§5Robô Sentinela§r%s§2Ativado

@@ -1,13 +1,14 @@
-function setup/world
-function setup/Q0001/setup
-# function dev/hide_debug
-function dev/remove_alltags
-tag @s add XQ0000
-tag @s add XQ0001
-tag @s add XQ0002
+say Rodou função reset
 
-tp @s -221.94 -17.00 -619.20
+tag @initiator remove Q0006_01
+tag @initiator remove Q0006_02
+tag @initiator remove Q0006_03
+tag @initiator remove Q0006_04
+tag @initiator remove Q0006_05
+
+tp @initiator -221.94 -17.00 -619.20
 scoreboard players set ufrn:phase ufrn 6
+scoreboard players set ufrn:subphase ufrn 0
 kill @e[name=sentinela]
 structure load sentinela_t2 -248.43 -5.17 -656.70 0_degrees none true false false
 structure load sentinela_t4 -255.55 -8.00 -574.56 0_degrees none true false false

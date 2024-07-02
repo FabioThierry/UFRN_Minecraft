@@ -180,11 +180,166 @@
             "name": {
               "rawtext": [
                 {
-                  "translate": "ufrn.npc.btn.mid_2"
+                  "translate": "ufrn.npc.btn.mid"
                 }
               ]
             },
-            "commands": ["/function npcs/professor_ferreira/Q0006/mid_2"]
+            "commands": []
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_7_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.7",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator ferreira_scene_8_Q0006"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_8_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.8",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator ferreira_scene_9_Q0006"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_9_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.9",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.end"
+                }
+              ]
+            },
+            "commands": ["/function npcs/professor_ferreira/Q0006/end"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_10_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.10",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.next"
+                }
+              ]
+            },
+            "commands": ["/dialogue open @s @initiator ferreira_scene_11_Q0006"]
+          }
+        ]
+      },
+      {
+        "scene_tag": "ferreira_scene_11_Q0006",
+        "npc_name": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.professor_ferreira.name",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "text": {
+          "rawtext": [
+            {
+              "translate": "ufrn.npc.Q0006.professor_ferreira.11",
+              "with": ["\n"]
+            }
+          ]
+        },
+        "buttons": [
+          {
+            "name": {
+              "rawtext": [
+                {
+                  "translate": "ufrn.npc.btn.reset"
+                }
+              ]
+            },
+            "commands": ["/function npcs/professor_ferreira/Q0006/reset"]
           }
         ]
       }

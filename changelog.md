@@ -12,10 +12,10 @@
 
 # Q0006
 
-- [ ] Resetar as alavancas
+- [x] Resetar as alavancas
 - [ ] Texto terminado
 - [ ] texto nao terminado
 - [ ] resetar quests
-- [ ] texto missao concluida
+- [ ] texto missao concluída
 - [ ] criar mapa
 - [ ] adicionar mapa
