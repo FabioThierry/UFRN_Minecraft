@@ -172,7 +172,8 @@ ufrn.Q0006.walkietalkie.7=Essa é a torre de principal de ligação. Para config
 ufrn.Q0006.walkietalkie.8=Beleza, agora que você terminou as câmeras, preciso que você vá até a torre de principal. Sabe aquela com uma maquina no topo? Preciso que você suba lá e aperte o botão. Isso é crucial pra gente finalizar essa missão. Então vai lá, sobe rapidinho e aperta o botão. E valeu pela ajuda, tá indo muito bem!
 ufrn.Q0006.walkietalkie.9=Você encontrou uma torre que precisa subir.
 ufrn.Q0006.walkietalkie.10=Acione a §5Alavanca§r para acessar o §5Robô Sentinela§r e informe o código que está por perto.
-ufrn.Q0006.walkietalkie.11=Muito bem torre ativada, não se esqueça de ativar a §5Alavanca§r depois de inserir o código.
+ufrn.Q0006.walkietalkie.11=Muito bem, torre ativada! Não se esqueça de ativar a §5Alavanca§r depois de inserir o código.
+ufrn.Q0006.walkietalkie.12=Muito bem, você conseguiu terminar antes do tempo acabar. Agora venha falar comigo!
 
 
 ufrn.objective.Q0006.1=Converse com o §l§qProfessor Ferreira§r.
@@ -197,3 +198,7 @@ ufrn.npc.Q0006.professor_ferreira.11=Você fez um bom esforço e isso já é mui
 ufrn.npc.Q0006.professor_ferreira.12=Se precisar de alguma dica ou ajuda, estou aqui para te apoiar. Na próxima, tenho certeza de que conseguiremos! Boa sorte e não desista!
 
 ufrn.sentinela.Q0006=§l§5Robô Sentinela§r%s§2Ativado
+
+### Conclusão
+ufrn.Q0006.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
+ufrn.Q0006.conclusion.subtitle=§q§l▶ Reparos no IMD ◀

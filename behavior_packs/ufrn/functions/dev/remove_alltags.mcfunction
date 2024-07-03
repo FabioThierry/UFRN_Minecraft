@@ -14,4 +14,5 @@ tag @s remove Q0006_02
 tag @s remove Q0006_03
 tag @s remove Q0006_04
 tag @s remove Q0006_05
+tag @s remove Q0006_06
 tag @s remove Q0014

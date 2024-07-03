@@ -13,9 +13,11 @@
 # Q0006
 
 - [x] Resetar as alavancas
-- [ ] Texto terminado
-- [ ] texto nao terminado
-- [ ] resetar quests
+- [x] Texto terminado
+- [x] texto nao terminado
+- [x] resetar quests
 - [ ] texto missao concluída
 - [ ] criar mapa
 - [ ] adicionar mapa
+- [x] Pausar o tempo quando terminar todas as torres
+- [x] Corrigir última lampada que não está acendendo
