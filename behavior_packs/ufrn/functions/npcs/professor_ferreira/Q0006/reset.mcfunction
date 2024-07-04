@@ -5,8 +5,10 @@ tag @initiator remove Q0006_02
 tag @initiator remove Q0006_03
 tag @initiator remove Q0006_04
 tag @initiator remove Q0006_05
+tag @initiator remove Q0006_06
+tag @initiator remove Q0006_07
 
-tp @initiator -221.94 -17.00 -619.20
+# tp @initiator -221.94 -17.00 -619.20
 scoreboard players set ufrn:phase ufrn 6
 scoreboard players set ufrn:subphase ufrn 0
 kill @e[name=sentinela]

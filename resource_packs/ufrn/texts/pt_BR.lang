@@ -60,9 +60,12 @@ ufrn.npc.Q0000.combatente_silva.1=Parabéns por ter seguido minhas instruções 
 ufrn.npc.Q0000.combatente_silva.2=Agora que você escapou da prisão, temos mais desafios pela frente.
 ufrn.npc.Q0000.combatente_silva.3=Vamos precisar de toda a sua habilidade para derrotar a IA que controla este lugar.
 
+### Início
+ufrn.Q0000.start.title=§l§6MISSÃO§r
+ufrn.Q0000.start.subtitle=§l§q▶ Fuga  ◀
 ### Conclusão
-ufrn.Q0000.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
-ufrn.Q0000.conclusion.subtitle=§q§l▶ Fuga ◀
+ufrn.Q0000.conclusion.title=§l§6MISSÃO CONCLUÍDA§r
+ufrn.Q0000.conclusion.subtitle=§l§q▶ Fuga ◀
 
 ##! Q0001
 ### Desafio
@@ -75,8 +78,6 @@ ufrn.Q0001.walkietalkie.4=Agora vou pedir de forma aleatória um pouco!
 ufrn.Q0001.walkietalkie.5=Agora realize o desafio antes que o tempo acabe!
 ufrn.Q0001.walkietalkie.6=Muito bem, você conseguiu finalizar %1 direções!
 ufrn.Q0001.walkietalkie.7=Volte e para falar comigo o §l§eCombatente Roberto!§r
-ufrn.Q0001.walkietalkie.8=
-ufrn.Q0001.walkietalkie.9=
 
 
 ### Objectives
@@ -108,10 +109,12 @@ ufrn.npc.Q0001.combatente_roberto.6=Uma §4Bússola§r é um instrumento de nave
 ufrn.npc.Q0001.combatente_roberto.7=Atenção, fique com o seu §5Walkie Talkie§r ligado para receber informações.
 ufrn.npc.Q0001.combatente_roberto.8=Parabéns, você conseguiu completar o desafio!%sVolte para conversar com o §eCombatente Silva§r lá ele lhe informará quais os próximos passos!%sOu então pode refazer o desafio.
 
+### Início
+ufrn.Q0001.start.title=§l§6MISSÃO§r
+ufrn.Q0001.start.subtitle=§§ql▶ Direções ◀
 ### Conclusão
-ufrn.Q0001.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
-ufrn.Q0001.conclusion.subtitle=§q§l▶ Direções ◀
-
+ufrn.Q0001.conclusion.title=§l§6MISSÃO CONCLUÍDA§r
+ufrn.Q0001.conclusion.subtitle=§l§q▶ Direções ◀
 
 ##! Q0002
 
@@ -155,9 +158,12 @@ ufrn.npc.Q0002.professor_ferreira.1=Olá, eu estava aguardando a sua chegada. Re
 ufrn.npc.Q0002.professor_ferreira.2=Não sei se você já ouviu falar de mim, mas sou o Professor Ferreira - Líder da Resistência contra a inteligência artificial §4§lLUGA§r. Porém, pode me chamar apenas de Professor.
 ufrn.npc.Q0002.professor_ferreira.3=Sinta-se bem-vindo.
 
+### Início
+ufrn.Q0002.start.title=§l§6MISSÃO§r
+ufrn.Q0002.start.subtitle=§l§q▶ Jornada até o IMD ◀
 ### Conclusão
-ufrn.Q0002.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
-ufrn.Q0002.conclusion.subtitle=§q§l▶ Jornada até o IMD ◀
+ufrn.Q0002.conclusion.title=§l§6MISSÃO CONCLUÍDA§r
+ufrn.Q0002.conclusion.subtitle=§l§q▶ Jornada até o IMD ◀
 
 ##! Q0006
 
@@ -168,12 +174,13 @@ ufrn.Q0006.walkietalkie.3=Enquanto você tá aí arrumando os §5Robôs Sentinel
 ufrn.Q0006.walkietalkie.4=Fica ligado nos códigos do §5Robô Sentinela§r que tá mais pro §l§2Norte§r e pro §l§2Leste§r. Pode parecer bobagem agora, mas confia em mim, você vai precisar dessa informação depois!
 ufrn.Q0006.walkietalkie.5=Não esqueça de prestar atenção nos códigos.
 ufrn.Q0006.walkietalkie.6=Vamos lá! o tempo está quase acabando.
-ufrn.Q0006.walkietalkie.7=Essa é a torre de principal de ligação. Para configurala voce precisa dos códigos de ativação das torres mais ao §l§2Norte§r e mais ao §l§2Leste§r.
+ufrn.Q0006.walkietalkie.7=Essa é a torre de principal de ligação. Para configurala você precisa dos códigos de ativação das torres mais ao §l§2Norte§r e mais ao §l§2Leste§r.
 ufrn.Q0006.walkietalkie.8=Beleza, agora que você terminou as câmeras, preciso que você vá até a torre de principal. Sabe aquela com uma maquina no topo? Preciso que você suba lá e aperte o botão. Isso é crucial pra gente finalizar essa missão. Então vai lá, sobe rapidinho e aperta o botão. E valeu pela ajuda, tá indo muito bem!
 ufrn.Q0006.walkietalkie.9=Você encontrou uma torre que precisa subir.
 ufrn.Q0006.walkietalkie.10=Acione a §5Alavanca§r para acessar o §5Robô Sentinela§r e informe o código que está por perto.
 ufrn.Q0006.walkietalkie.11=Muito bem, torre ativada! Não se esqueça de ativar a §5Alavanca§r depois de inserir o código.
 ufrn.Q0006.walkietalkie.12=Muito bem, você conseguiu terminar antes do tempo acabar. Agora venha falar comigo!
+ufrn.Q0006.walkietalkie.13=Infelizmente você não conseguiu terminar antes do tempo acabar. Venha falar comigo para tentar novamente!
 
 
 ufrn.objective.Q0006.1=Converse com o §l§qProfessor Ferreira§r.
@@ -199,6 +206,12 @@ ufrn.npc.Q0006.professor_ferreira.12=Se precisar de alguma dica ou ajuda, estou 
 
 ufrn.sentinela.Q0006=§l§5Robô Sentinela§r%s§2Ativado
 
+### Início
+ufrn.Q0006.start.title=§l§6MISSÃO§r
+ufrn.Q0006.start.subtitle=§l§q▶ Reparos no IMD ◀
 ### Conclusão
-ufrn.Q0006.conclusion.title=§6§lMISSÃO CONCLUÍDA§r
-ufrn.Q0006.conclusion.subtitle=§q§l▶ Reparos no IMD ◀
+ufrn.Q0006.conclusion.title=§l§6MISSÃO CONCLUÍDA§r
+ufrn.Q0006.conclusion.subtitle=§l§q▶ Reparos no IMD ◀
+### Falha
+ufrn.Q0006.failed.title=§l§4MISSÃO§r
+ufrn.Q0006.failed.subtitle=§l§n▶ Fracassada ◀

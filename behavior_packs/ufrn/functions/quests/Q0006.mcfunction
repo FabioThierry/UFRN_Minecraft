@@ -5,9 +5,7 @@ execute if score ufrn:subphase ufrn matches 3 run function quests/Q0006/Q0006_03
 execute if score ufrn:subphase ufrn matches 4 run function quests/Q0006/Q0006_04
 execute if score ufrn:subphase ufrn matches 5 run function quests/Q0006/Q0006_05
 execute if score ufrn:subphase ufrn matches 6 run function quests/Q0006/Q0006_06
-execute if score ufrn:subphase ufrn matches 7 run function quests/Q0006/Q0006_07
-execute if score ufrn:subphase ufrn matches 8 run function quests/Q0006/Q0006_08
-execute if score ufrn:subphase ufrn matches 9 run function quests/Q0006/Q0006_09
+execute if score ufrn:subphase ufrn matches 99 run function quests/Q0006/Q0006_99
 execute if score ufrn:subphase ufrn matches 200 run function quests/Q0006/Q0006_200
 execute if score ufrn:subphase ufrn matches 201 run function quests/Q0006/Q0006_201
 execute if score ufrn:subphase ufrn matches 202 run function quests/Q0006/Q0006_202

@@ -4,5 +4,6 @@ execute if score ufrn:subphase_tick ufrn matches 6 run scoreboard players set uf
 execute if score ufrn:subphase_tick ufrn matches 6 run function event/on_timer_desable
 execute if score ufrn:subphase_tick ufrn matches 50 run tellraw @a {"rawtext":[{"translate":"ufrn.walkietalkie.chat.name"},{"translate":"ufrn.chat.separator"},{"translate":"ufrn.Q0006.walkietalkie.12"}]}
 execute if score ufrn:subphase_tick ufrn matches 50 run function event/on_walkietalkie_speak
+execute if score ufrn:subphase_tick ufrn matches 60 run execute as @a at @s run playsound ufrn:mission_completed @s ~ ~ ~ 1.00 1.00 0.5
 execute if score ufrn:subphase_tick ufrn matches 80 run function event/on_objective_update
 execute if score ufrn:subphase_tick ufrn matches 80 run function event/on_subphase_complete

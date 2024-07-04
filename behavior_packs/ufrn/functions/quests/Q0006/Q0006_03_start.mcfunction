@@ -27,10 +27,10 @@ execute if entity @a[tag=Q0006_01,tag=Q0006_05] run execute positioned -178.46 -
 
 # Completo
 # Terminou antes do tempo acabar
-execute if entity @a[tag=Q0006_01,tag=Q0006_02,tag=Q0006_03,tag=Q0006_04,tag=Q0006_05] run execute unless score ufrn:timer ufrn matches 0 run execute if block -212.69 -17.00 -615.54 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.56 -17.00 -612.51 minecraft:redstone_torch run execute if block -212.43 -17.00 -610.47  minecraft:redstone_torch run scoreboard players set ufrn:subphase ufrn 4
+execute if entity @a[tag=Q0006_01,tag=Q0006_02,tag=Q0006_03,tag=Q0006_04,tag=Q0006_05] run execute unless score ufrn:timer ufrn matches 0 run execute if block -212.69 -17.00 -615.54 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.56 -17.00 -612.51 minecraft:redstone_torch run execute if block -212.43 -17.00 -610.47 minecraft:redstone_torch run scoreboard players set ufrn:subphase ufrn 4
 
 # Terminou depois do tempo acabar
-execute if entity @a[tag=Q0006_01,tag=Q0006_02,tag=Q0006_03,tag=Q0006_04,tag=Q0006_05] run execute if score ufrn:timer ufrn matches 0 run execute if block -212.69 -17.00 -615.54 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.50 -17.00 -613.50 minecraft:redstone_torch run execute if block -212.56 -17.00 -612.51 minecraft:redstone_torch run execute if block -212.43 -17.00 -610.47  minecraft:redstone_torch run scoreboard players set ufrn:subphase ufrn 99
+execute if entity @a[tag=Q0006_01] run execute if score ufrn:timer_tick ufrn matches 6000 run scoreboard players set ufrn:subphase ufrn 99
 
 
 
