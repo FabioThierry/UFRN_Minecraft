@@ -140,7 +140,8 @@
         "text": {
           "rawtext": [
             {
-              "translate": "ufrn.npc.Q0001.combatente_silva.5"
+              "translate": "ufrn.npc.Q0001.combatente_silva.5",
+              "with": ["\n"]
             }
           ]
         },

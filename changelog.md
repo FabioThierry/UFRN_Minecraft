@@ -2,13 +2,11 @@
 
 - [x] Remover diálogos que estão atrapalhando na Quest 01
 - [x] Melhorar comunicação de como vai ocorrer o desafio
-- [ ] Melhorar o espaçamento dos tempos entre cada mensagem, deixando mais devagar e depois adicionando velocidade ao final
+- [x] Melhorar o espaçamento dos tempos entre cada mensagem, deixando mais devagar e depois adicionando velocidade ao final
 - [ ] Adicionar imagens para exemplo da quest
 - [ ] Criar caminho até a Resistência
-- [ ] Adicionar NPC Professor Ferreira
-- [ ] Criar Quest com os pontos ao redor do IMD
-- [ ] Criar Quest na super-intendência
-- [ ] Adicionar som de pessoa falando de longe
+- [x] Adicionar NPC Professor Ferreira
+- [x] Criar Quest com os pontos ao redor do IMD
 
 # Q0006
 
@@ -32,15 +30,18 @@
 - [ ] Melhoria dos Caminhos com os Waypoints
 - [ ] Fazer um TP
 
-- [ ] Sonorização quando inicia uma Quest
-- [ ] Texto quando inicia uma Quest
+- [ ] Som murmurrando ao fundo do npc na Q0000
+- [ ] Quadro Bússula -> Q0001
+- [ ] Reiniciar Desafio direções -> Q0001
+- [x] Sonorização quando inicia uma Quest
+- [x] Texto quando inicia uma Quest
 - [x] Sonorização quando finaliza uma Quest
 - [ ] Texto quando uma quest Falha
 - [ ] Sonorização quando uma quest Falha
 - [ ] Spawn Quando o Jogador morrre em cada Quest
-- [ ] Adição dos Lugabots
+- [ ] Correção dos Lugabots
 - [ ] Correção das Cores dos Textos
-- [ ] Varredura e melhoria dos Textos
+- [ ] Melhoria dos Textos
 
 # Inicial
 
