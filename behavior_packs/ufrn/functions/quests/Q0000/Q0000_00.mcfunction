@@ -7,8 +7,8 @@ execute if score ufrn:subphase_tick ufrn matches 6 run titleraw @a subtitle { "r
 execute if score ufrn:subphase_tick ufrn matches 6 run function event/on_quest_start
 
 #execute if score ufrn:subphase_tick ufrn matches 10 run execute as @a at @s run playsound ufrn:walkietalkie_fx @s ~ ~ ~ 0.9
-execute if score ufrn:subphase_tick ufrn matches 5 run execute as @a at @s run setworldspawn 349.43 -54.00 228.88
-execute if score ufrn:subphase_tick ufrn matches 5 run execute as @a at @s run spawnpoint @a
+# execute if score ufrn:subphase_tick ufrn matches 5 run execute as @a at @s run setworldspawn 349.43 -54.00 228.88
+execute if score ufrn:subphase_tick ufrn matches 5 run execute as @a at @s run spawnpoint @s 350.25 -54.00 229.03
 execute if score ufrn:subphase_tick ufrn matches 60 run tellraw @a {"rawtext":[{"translate":"ufrn.unknown.chat.name"},{"translate":"ufrn.chat.separator"},{"translate":"ufrn.Q0000.unknown.1"}]}
 execute if score ufrn:subphase_tick ufrn matches 150 run tellraw @a {"rawtext":[{"translate":"ufrn.unknown.chat.name"},{"translate":"ufrn.chat.separator"},{"translate":"ufrn.Q0000.unknown.2"}]}
 execute if score ufrn:subphase_tick ufrn matches 290 run tellraw @a {"rawtext":[{"translate":"ufrn.unknown.chat.name"},{"translate":"ufrn.chat.separator"},{"translate":"ufrn.Q0000.unknown.3"}]}

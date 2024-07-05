@@ -1,13 +1,14 @@
 function setup/world
 function setup/Q0001/setup
-# function dev/hide_debug
-function dev/remove_alltags
-tag @s add XQ0000
-tag @s add XQ0001
-tag @s add XQ0002
-
-tp @s -221.39 -17.00 -622.07
+function ui/clear_objective
 scoreboard players set ufrn:phase ufrn 6
+tag @s remove Q0006_01
+tag @s remove Q0006_02
+tag @s remove Q0006_03
+tag @s remove Q0006_04
+tag @s remove Q0006_05
+tag @s remove Q0006_06
+tag @s remove Q0006_07
 kill @e[name=sentinela]
 structure load sentinela_t2 -248.43 -5.17 -656.70 0_degrees none true false false
 structure load sentinela_t4 -255.55 -8.00 -574.56 0_degrees none true false false
@@ -25,3 +26,5 @@ setblock -255.43 -10.00 -573.46 minecraft:lever["lever_direction"="up_east_west"
 setblock -260.43 -12.00 -531.58 minecraft:lever["lever_direction"="up_east_west","open_bit"=true]
 setblock -218.50 -12.00 -530.46 minecraft:lever["lever_direction"="up_north_south","open_bit"=true]
 setblock -179.54 -8.00 -526.57 minecraft:lever["lever_direction"="up_east_west","open_bit"=true]
+
+

@@ -4,7 +4,7 @@
 - [x] Melhorar comunicação de como vai ocorrer o desafio
 - [x] Melhorar o espaçamento dos tempos entre cada mensagem, deixando mais devagar e depois adicionando velocidade ao final
 - [ ] Adicionar imagens para exemplo da quest
-- [ ] Criar caminho até a Resistência
+- [x] Criar caminho até a Resistência
 - [x] Adicionar NPC Professor Ferreira
 - [x] Criar Quest com os pontos ao redor do IMD
 
@@ -42,9 +42,12 @@
 - [ ] Correção dos Lugabots
 - [ ] Correção das Cores dos Textos
 - [ ] Melhoria dos Textos
+- [ ] Adicionar imagens nas paradas de ônibus
+- [ ] Adicionar imagens nas luzes
 
 # Inicial
 
-- [ ] Lobby de Início
+- [x] Lobby de Início
 - [ ] Textos de Início da História
+- [ ] Criar textos pro lobby
 - [ ] Implementação dos Texto de Introdução

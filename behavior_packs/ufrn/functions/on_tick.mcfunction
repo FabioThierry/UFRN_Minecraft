@@ -7,3 +7,8 @@ function timer/start
 execute if score ufrn:subphase_tick_enabled ufrn matches 1 run scoreboard players add ufrn:subphase_tick ufrn 1
 execute if score ufrn:timer_enabled ufrn matches 1 run scoreboard players add ufrn:timer_tick ufrn 1
 
+
+# execute if entity[tag=Q0000]
+# scoreboard players add ufrn:death ufrn 1 
+
+function on_player_death

@@ -9,6 +9,7 @@ tag @s remove Q0001_02
 tag @s remove Q0002
 tag @s remove Q0002_01
 tag @s remove Q0002_02
+tag @s remove Q0002_03
 tag @s remove Q0006
 tag @s remove Q0006_01
 tag @s remove Q0006_02
